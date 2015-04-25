@@ -63,7 +63,6 @@ cacheSolve <- function(x, ...) {
         }
         
         ## If the inverse dosn't exist (NULL), calculate the inverse:
-        
         ## Get the matrix
         data <- x$get()
         
