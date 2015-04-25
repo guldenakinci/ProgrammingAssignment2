@@ -28,8 +28,7 @@ makeCacheMatrix <- function(x = matrix()) {
         get <- function() x
         
         ## 'setinverse' caches the inverse of x. 
-        ## Its argument 'solve' is a library function that gets the inverse of a matrix.
-        setinverse <- function(solve) inv <<- solve
+        setinverse <- function(inverse) inv <<- inverse
         
         ## 'getinverse' gets the inverse of x
         getinverse <- function() inv
